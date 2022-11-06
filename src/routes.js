@@ -9,6 +9,8 @@ import Profile from "views/Dashboard/Profile.js";
 import SignIn from "views/Pages/SignIn.js";
 import SignUp from "views/Pages/SignUp.js";
 import KYC from "views/Pages/KYC";
+import ChangePassword from "views/Pages/ChangePassword";
+import ForgetPassword from "views/Pages/ForgetPassword";
 
 import {
   HomeIcon,
@@ -93,7 +95,25 @@ var dashRoutes = [
         secondaryNavbar: true,
         component: KYC,
         layout: "/auth",
-      }
+      },
+      {
+        path: "/changePassword",
+        name: "ChangePassword",
+        rtlName: "لوحة القيادة",
+        icon: <RocketIcon color='inherit' />,
+        secondaryNavbar: true,
+        component: ChangePassword,
+        layout: "/auth",
+      },
+      {
+        path: "/forgetPassword",
+        name: "ForgetPassword",
+        rtlName: "لوحة القيادة",
+        icon: <RocketIcon color='inherit' />,
+        secondaryNavbar: true,
+        component: ForgetPassword,
+        layout: "/auth",
+      },
     ],
   },
 ];

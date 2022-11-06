@@ -16,9 +16,6 @@ import {
   DarkMode,
 } from "@chakra-ui/react";
 
-// Assets
-import signUpImage from "assets/img/signUpImage.png";
-
 // Custom Components
 import AuthFooter from "components/Footer/AuthFooter";
 import GradientBorder from "components/GradientBorder/GradientBorder";
