@@ -8,6 +8,7 @@ import RTLPage from "views/RTL/RTLPage.js";
 import Profile from "views/Dashboard/Profile.js";
 import SignIn from "views/Pages/SignIn.js";
 import SignUp from "views/Pages/SignUp.js";
+import KYC from "views/Pages/KYC";
 
 import {
   HomeIcon,
@@ -84,6 +85,15 @@ var dashRoutes = [
         component: SignUp,
         layout: "/auth",
       },
+      {
+        path: "/kyc",
+        name: "KYC",
+        rtlName: "لوحة القيادة",
+        icon: <RocketIcon color='inherit' />,
+        secondaryNavbar: true,
+        component: KYC,
+        layout: "/auth",
+      }
     ],
   },
 ];
