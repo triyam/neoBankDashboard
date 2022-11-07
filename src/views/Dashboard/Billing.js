@@ -177,9 +177,6 @@ function Billing() {
                 <Text fontSize='lg' color='#fff' fontWeight='bold'>
                   Payment Method
                 </Text>
-                <Button maxW='135px' fontSize='10px' variant='brand'>
-                  ADD A NEW CARD
-                </Button>
               </Flex>
             </CardHeader>
             <CardBody>
@@ -205,7 +202,7 @@ function Billing() {
                       <MastercardIcon w='100%' h='100%' />
                     </IconBox>
                     <Text color='#fff' fontSize='sm'>
-                      7812 2139 0823 XXXX
+                      UPI
                     </Text>
                     <Spacer />
                     <Button
@@ -214,10 +211,67 @@ function Billing() {
                       w='16px'
                       h='16px'
                       variant='no-hover'>
-                      <Icon as={FaPencilAlt} color='#fff' w='12px' h='12px' />
+                    </Button>
+                  </Flex>
+                  
+                </GradientBorder>
+                <GradientBorder
+                  mb={{ sm: "24px", md: "0px" }}
+                  me={{ sm: "0px", md: "24px" }}
+                  w='100%'
+                  borderRadius='20px'>
+                  <Flex
+                    p='22px'
+                    bg='rgb(31, 35, 89)'
+                    border='transparent'
+                    borderRadius='20px'
+                    align='center'
+                    w='100%'>
+                    <IconBox me='10px' w='25px' h='22px'>
+                      <MastercardIcon w='100%' h='100%' />
+                    </IconBox>
+                    <Text color='#fff' fontSize='sm'>
+                      Card
+                    </Text>
+                    <Spacer />
+                    <Button
+                      p='0px'
+                      bg='transparent'
+                      w='16px'
+                      h='16px'
+                      variant='no-hover'>
                     </Button>
                   </Flex>
                 </GradientBorder>
+                <GradientBorder
+                  mb={{ sm: "24px", md: "0px" }}
+                  me={{ sm: "0px", md: "24px" }}
+                  w='100%'
+                  borderRadius='20px'>
+                  <Flex
+                    p='22px'
+                    bg='rgb(31, 35, 89)'
+                    border='transparent'
+                    borderRadius='20px'
+                    align='center'
+                    w='100%'>
+                    <IconBox me='10px' w='25px' h='22px'>
+                      <MastercardIcon w='100%' h='100%' />
+                    </IconBox>
+                    <Text color='#fff' fontSize='sm'>
+                      Paypal
+                    </Text>
+                    <Spacer />
+                    <Button
+                      p='0px'
+                      bg='transparent'
+                      w='16px'
+                      h='16px'
+                      variant='no-hover'>
+                    </Button>
+                  </Flex>
+                </GradientBorder>
+                
                 <GradientBorder w='100%' borderRadius='20px'>
                   <Flex
                     p='22px'
@@ -230,7 +284,7 @@ function Billing() {
                       <VisaIcon w='100%' h='100%' color='#fff' />
                     </IconBox>
                     <Text color='#fff' fontSize='sm'>
-                      7812 2139 0823 XXXX
+                      AliPay
                     </Text>
                     <Spacer />
                     <Button
@@ -239,7 +293,6 @@ function Billing() {
                       w='16px'
                       h='16px'
                       variant='no-hover'>
-                      <Icon as={FaPencilAlt} color='#fff' w='12px' h='12px' />
                     </Button>
                   </Flex>
                 </GradientBorder>
