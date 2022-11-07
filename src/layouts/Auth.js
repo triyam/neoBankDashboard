@@ -89,10 +89,10 @@ export default function Pages(props) {
     <ChakraProvider theme={theme} resetCss={false} w='100%'>
       <Box ref={navRef} w='100%'>
         <Portal containerRef={navRef}>
-          <AuthNavbar
+          {/* <AuthNavbar
             secondary={getActiveNavbar(routes)}
             logoText='VISION UI FREE'
-          />
+          /> */}
         </Portal>
         <Box w='100%'>
           <Box ref={wrapper} w='100%'>
