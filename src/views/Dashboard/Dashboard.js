@@ -60,7 +60,7 @@ export default function Dashboard() {
 						<Flex flexDirection='row' align='center' justify='center' w='100%'>
 							<Stat me='auto'>
 								<StatLabel fontSize='sm' color='gray.400' fontWeight='bold' pb='2px'>
-									Today's Money
+									My Balance
 								</StatLabel>
 								<Flex>
 									<StatNumber fontSize='lg' color='#fff'>
@@ -90,7 +90,7 @@ export default function Dashboard() {
 						<Flex flexDirection='row' align='center' justify='center' w='100%'>
 							<Stat me='auto'>
 								<StatLabel fontSize='sm' color='gray.400' fontWeight='bold' pb='2px'>
-									Today's Users
+									My Investments
 								</StatLabel>
 								<Flex>
 									<StatNumber fontSize='lg' color='#fff'>
@@ -120,7 +120,7 @@ export default function Dashboard() {
 						<Flex flexDirection='row' align='center' justify='center' w='100%'>
 							<Stat>
 								<StatLabel fontSize='sm' color='gray.400' fontWeight='bold' pb='2px'>
-									New Clients
+									Send Money
 								</StatLabel>
 								<Flex>
 									<StatNumber fontSize='lg' color='#fff'>
@@ -151,7 +151,7 @@ export default function Dashboard() {
 						<Flex flexDirection='row' align='center' justify='center' w='100%'>
 							<Stat me='auto'>
 								<StatLabel fontSize='sm' color='gray.400' fontWeight='bold' pb='2px'>
-									Total Sales
+									Receive Money
 								</StatLabel>
 								<Flex>
 									<StatNumber fontSize='lg' color='#fff' fontWeight='bold'>
@@ -212,7 +212,7 @@ export default function Dashboard() {
 											transition='all .3s ease'
 											my={{ sm: '1.5rem', lg: '0px' }}
 											_hover={{ me: '4px' }}>
-											Tab to record
+											Check Your Profile
 										</Text>
 										<Icon
 											as={BsArrowRight}
@@ -371,7 +371,7 @@ export default function Dashboard() {
 					<CardHeader mb='20px' ps='22px'>
 						<Flex direction='column' alignSelf='flex-start'>
 							<Text fontSize='lg' color='#fff' fontWeight='bold' mb='6px'>
-								Sales Overview
+								Track My Investments
 							</Text>
 							<Text fontSize='md' fontWeight='medium' color='gray.400'>
 								<Text as='span' color='green.400' fontWeight='bold'>
@@ -407,7 +407,7 @@ export default function Dashboard() {
 							</Box>
 							<Flex direction='column' mt='24px' mb='36px' alignSelf='flex-start'>
 								<Text fontSize='lg' color='#fff' fontWeight='bold' mb='6px'>
-									Active Users
+									My Expenses
 								</Text>
 								<Text fontSize='md' fontWeight='medium' color='gray.400'>
 									<Text as='span' color='green.400' fontWeight='bold'>
@@ -504,7 +504,7 @@ export default function Dashboard() {
 					<CardHeader p='12px 0px 28px 0px'>
 						<Flex direction='column'>
 							<Text fontSize='lg' color='#fff' fontWeight='bold' pb='8px'>
-								Projects
+								My History
 							</Text>
 							<Flex align='center'>
 								<Icon as={IoCheckmarkDoneCircleSharp} color='teal.300' w={4} h={4} pe='3px' />
