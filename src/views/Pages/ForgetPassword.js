@@ -1,5 +1,3 @@
- 
-
 import React from "react";
 // Chakra imports
 import {
@@ -11,19 +9,16 @@ import {
   Heading,
   Input,
   Link,
-  Switch,
+  Checkbox,
   Text,
   DarkMode,
 } from "@chakra-ui/react";
-
-// Assets
-import signInImage from "assets/img/signInImage.png";
 
 // Custom Components
 import AuthFooter from "components/Footer/AuthFooter";
 import GradientBorder from "components/GradientBorder/GradientBorder";
 
-function SignIn() {
+function ForgetPassword() {
   const titleColor = "white";
   const textColor = "gray.400";
 
@@ -34,7 +29,6 @@ function SignIn() {
         h={{ base: "120vh", lg: "fit-content" }}
         w='100%'
         maxW='1044px'
-        mx='auto'
         pt={{ sm: "100px", md: "0px" }}
         flexDirection='column'
         me={{ base: "auto", lg: "50px", xl: "auto" }}>
@@ -53,7 +47,7 @@ function SignIn() {
             mt={{ base: "50px", md: "150px", lg: "160px", xl: "245px" }}
             mb={{ base: "60px", lg: "95px" }}>
             <Heading color={titleColor} fontSize='32px' mb='10px'>
-              Nice to see you!
+              Forget Password
             </Heading>
             <Text
               mb='36px'
@@ -61,7 +55,7 @@ function SignIn() {
               color={textColor}
               fontWeight='bold'
               fontSize='14px'>
-              Enter your email and password to sign in
+              Enter your mail address so that we can send a link on your mail to change password
             </Text>
             <FormControl>
               <FormLabel
@@ -76,6 +70,7 @@ function SignIn() {
                 w={{ base: "100%", lg: "fit-content" }}
                 borderRadius='20px'>
                 <Input
+                  name='email'
                   color='white'
                   bg='rgb(19,21,54)'
                   border='transparent'
@@ -85,48 +80,10 @@ function SignIn() {
                   w={{ base: "100%", md: "346px" }}
                   maxW='100%'
                   h='46px'
-                  placeholder='Your email adress'
+                  type='email'
+                  placeholder='Please provide your email adress'
                 />
               </GradientBorder>
-            </FormControl>
-            <FormControl>
-              <FormLabel
-                ms='4px'
-                fontSize='sm'
-                fontWeight='normal'
-                color='white'>
-                Password
-              </FormLabel>
-              <GradientBorder
-                mb='24px'
-                w={{ base: "100%", lg: "fit-content" }}
-                borderRadius='20px'>
-                <Input
-                  color='white'
-                  bg='rgb(19,21,54)'
-                  border='transparent'
-                  borderRadius='20px'
-                  fontSize='sm'
-                  size='lg'
-                  w={{ base: "100%", md: "346px" }}
-                  maxW='100%'
-                  type='password'
-                  placeholder='Your password'
-                />
-              </GradientBorder>
-            </FormControl>
-            <FormControl display='flex' alignItems='center'>
-              <DarkMode>
-                <Switch id='remember-login' colorScheme='brand' me='10px' />
-              </DarkMode>
-              <FormLabel
-                htmlFor='remember-login'
-                mb='0'
-                ms='1'
-                fontWeight='normal'
-                color='white'>
-                Remember me
-              </FormLabel>
             </FormControl>
             <Button
               variant='brand'
@@ -137,10 +94,10 @@ function SignIn() {
               h='45'
               mb='20px'
               mt='20px'>
-              SIGN IN
+              SEND EMAIL
             </Button>
 
-            <Flex
+            {/* <Flex
               flexDirection='column'
               justifyContent='center'
               alignItems='center'
@@ -152,7 +109,7 @@ function SignIn() {
                   Sign Up
                 </Link>
               </Text>
-            </Flex>
+            </Flex> */}
           </Flex>
         </Flex>
         <Box
@@ -162,19 +119,18 @@ function SignIn() {
           mb='80px'>
           <AuthFooter />
         </Box>
-        <Box
+        {/* <Box
           display={{ base: "none", lg: "block" }}
           overflowX='hidden'
-          h='100%'
-          maxW={{ md: "50vw", lg: "50vw" }}
-          minH='100vh'
+          h='1300px'
+          maxW={{ md: "50vw", lg: "48vw" }}
           w='960px'
           position='absolute'
           left='0px'>
           <Box
-            bgImage={signInImage}
+            bgImage={signUpImage}
             w='100%'
-            h='100%'
+            h='1300px'
             bgSize='cover'
             bgPosition='50%'
             position='absolute'
@@ -201,10 +157,20 @@ function SignIn() {
               THE VISION UI DASHBOARD
             </Text>
           </Box>
-        </Box>
+        </Box> */}
+        {/* <Box
+          display={{ base: "none", lg: "block" }}
+          overflowX='hidden'
+          h='100%'
+          maxW={{ md: "50vw", lg: "50vw" }}
+          minH='100vh'
+          w='960px'
+          position='absolute'
+          left='0px'>
+        </Box> */}
       </Flex>
-    </Flex>
+    </Flex> 
   );
 }
 
-export default SignIn;
+export default ForgetPassword;

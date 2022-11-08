@@ -328,8 +328,7 @@ function SignUp() {
             display='flex'
             flexDirection='column'
             justifyContent='center'
-            alignItems='center'
-            position='absolute'>
+            alignItems='center'>
             <Text
               textAlign='center'
               color='white'

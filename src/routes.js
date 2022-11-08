@@ -9,6 +9,9 @@ import Profile from "views/Dashboard/Profile.js";
 import SignIn from "views/Pages/SignIn.js";
 import SignUp from "views/Pages/SignUp.js";
 import CommunityTable from 'views/Dashboard/CommunityTable';
+import KYC from "views/Pages/KYC";
+import ChangePassword from "views/Pages/ChangePassword";
+import ForgetPassword from "views/Pages/ForgetPassword";
 
 import {
   HomeIcon,
