@@ -8,6 +8,7 @@ import RTLPage from "views/RTL/RTLPage.js";
 import Profile from "views/Dashboard/Profile.js";
 import SignIn from "views/Pages/SignIn.js";
 import SignUp from "views/Pages/SignUp.js";
+import CommunityTable from 'views/Dashboard/CommunityTable';
 
 import {
   HomeIcon,
@@ -34,6 +35,14 @@ var dashRoutes = [
     rtlName: "لوحة القيادة",
     icon: <StatsIcon color='inherit' />,
     component: Tables,
+    layout: "/admin",
+  },
+  {
+    path: "/community",
+    name: "Your Community",
+    rtlName: "لوحة القيادة",
+    icon: <RocketIcon color='inherit' />,
+    component: CommunityTable,
     layout: "/admin",
   },
   {
@@ -87,15 +96,6 @@ var dashRoutes = [
       {
         path: "/policies",
         name: "Our Policies",
-        rtlName: "لوحة القيادة",
-        icon: <RocketIcon color='inherit' />,
-        secondaryNavbar: true,
-        component: SignUp,
-        layout: "/auth",
-      },
-      {
-        path: "/community",
-        name: "Your Community",
         rtlName: "لوحة القيادة",
         icon: <RocketIcon color='inherit' />,
         secondaryNavbar: true,
