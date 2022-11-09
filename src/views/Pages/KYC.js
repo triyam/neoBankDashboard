@@ -15,6 +15,8 @@ import {
   Text,
   DarkMode,
 } from "@chakra-ui/react";
+import { useHistory } from "react-router-dom";
+
 
 // Custom Components
 import AuthFooter from "components/Footer/AuthFooter";
@@ -23,6 +25,8 @@ import GradientBorder from "components/GradientBorder/GradientBorder";
 function KYC() {
   const titleColor = "white";
   const textColor = "gray.400";
+  let history = useHistory();
+
 
   return (
     <Flex position='relative'>
@@ -316,6 +320,7 @@ function KYC() {
               </FormLabel>
             </FormControl>
             <Button
+            onClick={() => {history.push('/dashboard')}}
               variant='brand'
               fontSize='10px'
               type='submit'
