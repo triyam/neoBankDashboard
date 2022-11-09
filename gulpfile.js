@@ -12,11 +12,11 @@ gulp.task("licenses", async function () {
       * Vision UI Free Chakra - v1.0.0
       =========================================================
       
-      * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
-      * Copyright 2021 Creative Tim (https://www.creative-tim.com/)
+      * Product Page: https://www.strugend.com/product/vision-ui-free-chakra
+      * Copyright 2021 Creative Tim (https://www.strugend.com/)
       * Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-chakra/blob/master LICENSE.md)
       
-      * Design and Coded by Simmmple & Creative Tim
+      * Design and Coded by Strugend & Creative Tim
       
       =========================================================
       
@@ -37,11 +37,11 @@ gulp.task("licenses", async function () {
       * Vision UI Free Chakra - v1.0.0
       =========================================================
       
-      * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
-      * Copyright 2021 Creative Tim (https://www.creative-tim.com/)
+      * Product Page: https://www.strugend.com/product/vision-ui-free-chakra
+      * Copyright 2021 Creative Tim (https://www.strugend.com/)
       * Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-chakra/blob/master LICENSE.md)
       
-      * Design and Coded by Simmmple & Creative Tim
+      * Design and Coded by Strugend & Creative Tim
       
       =========================================================
       
@@ -62,11 +62,11 @@ gulp.task("licenses", async function () {
       * Vision UI Free Chakra - v1.0.0
       =========================================================
       
-      * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
-      * Copyright 2021 Creative Tim (https://www.creative-tim.com/)
+      * Product Page: https://www.strugend.com/product/vision-ui-free-chakra
+      * Copyright 2021 Creative Tim (https://www.strugend.com/)
       * Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-chakra/blob/master LICENSE.md)
       
-      * Design and Coded by Simmmple & Creative Tim
+      * Design and Coded by Strugend & Creative Tim
       
       =========================================================
       

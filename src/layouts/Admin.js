@@ -138,7 +138,7 @@ export default function Dashboard(props) {
             onOpen={onOpen}
           />
         </Portal>
-        <Configurator
+        {/* <Configurator
           secondary={getActiveNavbar(routes)}
           isOpen={isOpen}
           onClose={onClose}
@@ -148,7 +148,7 @@ export default function Dashboard(props) {
           }}
           onOpaque={() => setSidebarVariant("opaque")}
           onTransparent={() => setSidebarVariant("transparent")}
-        />
+        /> */}
       </MainPanel>
     </ChakraProvider>
   );
