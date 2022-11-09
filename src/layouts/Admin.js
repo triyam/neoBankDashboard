@@ -1,5 +1,3 @@
- 
-
 // Chakra imports
 import { ChakraProvider, Portal, useDisclosure } from "@chakra-ui/react";
 import Configurator from "components/Configurator/Configurator";
@@ -100,8 +98,8 @@ export default function Dashboard(props) {
     <ChakraProvider theme={theme} resetCss={false}>
       <Sidebar
         routes={routes}
-        logoText={"UDHAR PE"}
-        display='none'
+        logoText={"CHAND PE"}
+        display="none"
         sidebarVariant={sidebarVariant}
         {...rest}
       />
@@ -110,11 +108,12 @@ export default function Dashboard(props) {
         w={{
           base: "100%",
           xl: "calc(100% - 275px)",
-        }}>
+        }}
+      >
         <Portal>
           <AdminNavbar
             onOpen={onOpen}
-            logoText={"UDHAR PE"}
+            logoText={"CHAND PE"}
             brandText={getActiveRoute(routes)}
             secondary={getActiveNavbar(routes)}
             fixed={fixed}
@@ -126,7 +125,7 @@ export default function Dashboard(props) {
             <PanelContainer>
               <Switch>
                 {getRoutes(routes)}
-                <Redirect from='/admin' to='/admin/dashboard' />
+                <Redirect from="/admin" to="/admin/dashboard" />
               </Switch>
             </PanelContainer>
           </PanelContent>
