@@ -64,9 +64,9 @@ export default function Footer(props) {
             md: "44px",
           }}
         >
-          <Link color="white" fontSize="sm" href="https://www.strugend.com">
+          {/* <Link color="white" fontSize="sm" href="https://www.strugend.com">
             {document.documentElement.dir === "rtl" ? "سيممبل" : "Creative Tim"}
-          </Link>
+          </Link> */}
         </ListItem>
         <ListItem
           me={{
