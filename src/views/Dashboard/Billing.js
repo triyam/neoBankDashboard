@@ -3,6 +3,8 @@ import React from "react";
 // Chakra imports
 import { Box, Button, Flex, Grid, Icon, Spacer, Text } from "@chakra-ui/react";
 
+//react router dom
+import { Link } from "react-router-dom";
 // Images
 import BackgroundCard1 from "assets/img/billing-background-card.png";
 
@@ -196,9 +198,27 @@ function Billing() {
                 <Text fontSize="lg" color="#fff" fontWeight="bold">
                   Payment Method
                 </Text>
-                <Button maxW="135px" fontSize="10px" variant="brand">
-                  ADD AMOUNT
-                </Button>
+                {/* <Link
+                  to="https://chandpe-payment-gateway.herokuapp.com/"
+                  external
+                > */}
+                <a href="https://chandpe-payment-gateway.herokuapp.com/">
+                  <Button
+                    onlick={() => {
+                      window.open(
+                        "https://chandpe-payment-gateway.herokuapp.com/",
+                        "_blank"
+                      );
+                    }}
+                    maxW="135px"
+                    fontSize="10px"
+                    variant="brand"
+                    // href="https://chandpe-payment-gateway.herokuapp.com/"
+                  >
+                    ADD AMOUNT
+                  </Button>
+                </a>
+                {/* </Link> */}
               </Flex>
             </CardHeader>
             {/* <CardBody>
