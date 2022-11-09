@@ -31,13 +31,21 @@ function Tables() {
               w="100%"
             >
               <Text color="#fff" fontSize="lg" fontWeight="bold">
-                Community Information
+                Community Name : Srijan's Community
               </Text>
               <Button maxW="135px" fontSize="10px" variant="brand">
                 Add Member
               </Button>
             </Flex>
           </CardHeader>
+          <Text
+            color="#fff"
+            fontSize="md"
+            fontWeight="bold"
+            alignContent={"left"}
+          >
+            Community ID: KII632OP
+          </Text>
           <CardBody>
             <Flex direction="column" w="100%">
               {billingData.map((row) => {
